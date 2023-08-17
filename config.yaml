@@ -1,4 +1,4 @@
-baseURL: 'https://k8s.lt/'
+#baseURL: 'https://k8s.lt/'
 languageCode: lt-LT
 paginate: 6
 title: k8s.lt - Atviro kodo technologinis partneris
@@ -48,5 +48,5 @@ disableKinds:
   - taxonomy
   - term
 enableRobotsTXT: true
-minify:
+#minify:
 #  minifyOutput: true
