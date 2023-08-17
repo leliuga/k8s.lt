@@ -1,0 +1,31 @@
+---
+enable: true
+topTitle: Startuoliams
+title: >
+  ## augimo vitaminai
+
+tab1Name: Startas
+tab2Name: Debesis
+tab1Target: start
+tab2Target: cloud
+
+start:
+  - title: Konsultacija
+    content: >
+      Mes padėsime Jums išsiaiškinti, ką reikia daryti, kad Jūsų idėja taptų produktyviu produktu.
+  - title: Projekto įgyvendinimas
+    content: >
+        Mes padėsime Jums įgyvendinti Jūsų idėją, kad ji taptų produktyviu produktu.
+  - title: Palaikymas
+    content: >
+        Mes padėsime Jums išlaikyti Jūsų produktą produktyviu.
+cloud:
+  - title: Microsoft Azure
+    content: >
+      Galite gauti "trial" iki $150,000 paslaugoms.
+  - title: Amazon Web Services
+    content: > 
+      Galite gauti iki $100,000 paslaugoms.
+  - title: Google Cloud Platform
+    content: > 
+      Galite gauti iki $200,000 paslaugoms.

@@ -1,0 +1,64 @@
+
+  .singleBlog {
+    justify-content: center;
+    display: grid;
+    &__feature {
+      padding: 20px 20px;
+      background: #f1f6f9;
+      border-radius: 7px;
+      @include desktop {
+
+      }
+      img {
+        max-height: 300px;
+        border-radius: 20px;
+        opacity: .8;
+        @include desktop {
+          max-height: 250px;
+        }
+      }
+    }
+    &__content {
+      text-align: justify;
+      max-width: 680px;
+
+      @include desktop {
+        margin: 0;
+        text-align: left;
+        max-width: inherit;
+      }
+      .blog-section {
+        margin-bottom: 60px;
+        img {
+          float: right;
+          mask: url("../images/hero/hero-mask-svg.png");
+          -webkit-mask-repeat: no-repeat;
+          -webkit-mask-size: contain;
+          -webkit-mask-position: center center;
+          @include tablet {
+            width: 100%;
+            float: none;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+.post-meta {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  li {
+    list-style: none;
+    z-index: 2;
+    i {
+      padding-right: 7px;
+    }
+    a {
+      color: #7e7e8a;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

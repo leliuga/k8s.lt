@@ -1,0 +1,52 @@
+baseURL: 'https://k8s.lt/'
+languageCode: lt-LT
+paginate: 6
+title: k8s.lt - Atviro kodo technologinis partneris
+menu:
+  main:
+    - name: Pradžia
+      url: '#home'
+      weight: 1
+    - name: Paslaugos
+      url: '#services'
+      weight: 3
+    - name: Kubernetes
+      url: 'paslauga/kubernetes'
+      weight: 4
+  sitemap:
+    - name: Pradžia
+      url: '/'
+      weight: 1
+    - name: Pasikalbėkime
+      url: 'pasikalbekime'
+      weight: 2
+    - name: Kubernetes
+      url: 'paslauga/kubernetes'
+      weight: 3
+    - name: DataOps
+      url: 'paslauga/dataops'
+      weight: 4
+    - name: DevOps
+      url: 'paslauga/devops'
+      weight: 5
+    - name: FinOps
+      url: 'paslauga/finops'
+      weight: 6
+    - name: GitOps
+      url: 'paslauga/gitops'
+      weight: 7
+params:
+  logo: images/logo.svg
+  address:
+    phone: +(370) 612 30123
+    email: deploy@k8s.lt
+    openingHours: 9.00 - 17.30 darbo dienomis
+taxonomies:
+  category: categories
+  tag: tags
+disableKinds:
+  - taxonomy
+  - term
+enableRobotsTXT: true
+minify:
+#  minifyOutput: true

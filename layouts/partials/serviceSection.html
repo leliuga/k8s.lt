@@ -1,0 +1,38 @@
+{{ with .Site.Data.serviceSection }}
+{{ if .enable }}
+<section class="section blog-preview" id="services">
+    <div class="blog-preview__shape">
+        <img alt="blog shape" src="images/service/service-shape.svg"/>
+    </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <div class="blog-preview__header">
+                    <span class="top-title pre-line">{{ .topTitle }}</span>
+                    {{ .title | markdownify }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            {{ range first 4 (where $.Site.RegularPages "Type" "!=" "portfolio") }}
+            <div class="col-lg-6">
+                <div class="blog-page__item">
+                    <a href="{{ .Permalink }}">
+                        <div class="blog-page__item-thumb">
+                            <img src="{{ .Params.featureImage | absURL }}" alt="post-image">
+                        </div>
+                        <div class="blog-page__item-content">
+                            <h5 class="mb-0 text-center">
+                                {{ .Title }}
+                            </h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

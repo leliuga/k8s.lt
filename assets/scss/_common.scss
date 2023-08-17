@@ -1,0 +1,72 @@
+.section{
+  padding: 100px 0;
+}
+
+.unstyle-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  @include desktop {
+    font-size: 35px;
+  }
+}
+
+h2 {
+  @include desktop {
+    font-size: 30px;
+  }
+}
+.section {
+  padding: 60px 0 40px 0;
+
+  @include desktop {
+    padding: 50px 0 30px 0;
+  }
+
+  .svg-img {
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    animation: move_top 5s infinite linear;
+    @include desktop {
+      display: none;
+    }
+  }
+
+  .animate-shape {
+    position: absolute;
+    top: 29%;
+    right: 4%;
+    height: 300px;
+    width: 300px;
+
+    svg {
+      width: 100%;
+    }
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  .animate-pattern {
+    position: absolute;
+    top: 46%;
+    right: 12%;
+    height: 100px;
+    width: 100px;
+    animation: move_top 3s infinite linear;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @include desktop {
+      display: none;
+    }
+  }
+}
