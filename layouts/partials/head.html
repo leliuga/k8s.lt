@@ -21,5 +21,6 @@
     <link rel=preload href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap" as="style">
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
     <link rel=stylesheet href="{{ $style.Permalink }}" media="all">
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap" media="print">
     <link rel=icon href="{{ "/images/favicon.ico" | absURL }}" type="image/x-icon">
 </head>
