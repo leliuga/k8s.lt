@@ -1,9 +1,23 @@
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      img-src 'self' data: https:;
+      script-src 'self';
+      style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
+      font-src 'self' https://fonts.gstatic.com;
+      base-uri 'none';
+      connect-src 'self' https://*.k8s.lt/ ;
+      object-src 'none';
+      media-src 'self';
+    ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ .Description }}">
     <meta name="robots" content="index, follow">
-    <link name="canonical" href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&display=swap">
     <title>{{ .Title }} - K8s.lt</title>
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">

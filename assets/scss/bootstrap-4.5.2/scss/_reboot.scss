@@ -46,6 +46,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0; // 1
   font-family: $font-family-base;
+  font-display: optional;
   @include font-size($font-size-base);
   font-weight: $font-weight-base;
   line-height: $line-height-base;

@@ -8,9 +8,7 @@
     }
     .navbar-brand {
         img {
-            @include desktop {
-                width: 80%;
-            }
+            max-height: 64px;
         }
     }
     &.nav__color__change {

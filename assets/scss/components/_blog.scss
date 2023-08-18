@@ -30,25 +30,8 @@
 			opacity: 0.9;
 			background: #0288d1;
 			color: #fff;
-			h5 {
-				color: #fff;
-			}
 			span {
-				color: $primary;
-				margin: 0 0 20px 40px;
-				position: relative;
 				display: block;
-				line-height: 1;
-				&::before {
-					position: absolute;
-					content: "";
-					top: 50%;
-					left: -40px;
-					height: 1px;
-					width: 20px;
-					background: $secondary;
-					transform: translateY(-50%);
-				}
 			}
 		}
 		&:hover {

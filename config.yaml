@@ -4,32 +4,32 @@ paginate: 6
 menu:
   main:
     - name: Paslaugos
-      url: 'paslauga/'
+      url: '/paslauga'
       weight: 1
     - name: Kubernetes
-      url: 'paslauga/kubernetes'
+      url: '/paslauga/kubernetes'
       weight: 2
   sitemap:
     - name: Pradžia
       url: '/'
       weight: 1
     - name: Pasikalbėkime
-      url: 'pasikalbekime'
+      url: '/pasikalbekime'
       weight: 2
     - name: Kubernetes
-      url: 'paslauga/kubernetes'
+      url: '/paslauga/kubernetes'
       weight: 3
     - name: DataOps
-      url: 'paslauga/dataops'
+      url: '/paslauga/dataops'
       weight: 4
     - name: DevOps
-      url: 'paslauga/devops'
+      url: '/paslauga/devops'
       weight: 5
     - name: FinOps
-      url: 'paslauga/finops'
+      url: '/paslauga/finops'
       weight: 6
     - name: GitOps
-      url: 'paslauga/gitops'
+      url: '/paslauga/gitops'
       weight: 7
 params:
   logo: /images/logo.webp
@@ -44,5 +44,5 @@ disableKinds:
   - taxonomy
   - term
 enableRobotsTXT: true
-#minify:
-#  minifyOutput: true
+minify:
+  minifyOutput: true
