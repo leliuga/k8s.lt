@@ -1,9 +1,9 @@
-languageCode: lt-LT
+defaultContentLanguage: lt
 paginate: 6
 menu:
   main:
     - name: Paslaugos
-      url: '/paslauga'
+      url: '/paslaugos'
       weight: 1
     - name: Kubernetes
       url: '/paslauga/kubernetes'
