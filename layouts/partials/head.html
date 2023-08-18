@@ -3,17 +3,22 @@
     <meta http-equiv=content-security-policy content="
       default-src 'self';
       img-src 'self' data: https:;
-      script-src 'self' https://*.cloudflareinsights.com https://www.googletagmanager.com 'unsafe-inline';
+      script-src 'self' https://*.cloudflareinsights.com https://*.googletagmanager.com https://*.google-analytics.com 'unsafe-inline';
       style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
       font-src 'self' https://fonts.gstatic.com;
       base-uri 'none';
-      connect-src 'self' https://*.k8s.lt https://cloudflareinsights.com;
+      connect-src 'self' https://*.k8s.lt https://cloudflareinsights.com https://*.google-analytics.com;
       object-src 'none';
       media-src 'self';
     ">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=description content="{{ .Description }}">
     <meta name=robots content="index, follow">
+    <meta property="og:title" content="{{ .Title }} - K8s.lt">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:image" content="/images/service/kubernetes.webp"/>
+    <meta property="og:url" content="https://k8s.lt{{ .Permalink }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
     <title>{{ .Title }} - K8s.lt</title>
     <link rel=canonical href="https://k8s.lt{{ .Permalink }}">
     <link rel=preconnect href="https://fonts.googleapis.com" crossorigin>
