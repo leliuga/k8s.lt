@@ -5,6 +5,9 @@ featureImage: /images/service/devops.webp
 postImage: /images/service/devops.webp
 tags: DevOps
 categories: paslauga
+sitemap:
+   changefreq: weekly
+   priority: 0.9
 ---
 
 DevOps: Skleidžiant kultūrą ir praktikas, siekiant efektyvumo ir bendradarbiavimo

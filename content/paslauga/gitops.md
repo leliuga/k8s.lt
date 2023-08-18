@@ -5,6 +5,9 @@ featureImage: /images/service/gitops.webp
 postImage: /images/service/gitops.webp
 tags: GitOps
 categories: paslauga
+sitemap:
+   changefreq: weekly
+   priority: 0.9
 ---
 
 GitOps yra metodologija, kuri taiko Git versijavimo sistemą kaip pagrindinį infrastruktūros ir programinės įrangos

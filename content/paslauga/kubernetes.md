@@ -5,6 +5,9 @@ featureImage: /images/service/kubernetes.webp
 postImage: /images/service/kubernetes.webp
 tags: Kubernetes
 categories: paslauga
+sitemap:
+   changefreq: weekly
+   priority: 0.9
 ---
 
 Kubernetes (dažnai vadinamas "K8s") yra atviro kodo sistemos valdymo platforma, skirta plėstis ir valdyti debesų

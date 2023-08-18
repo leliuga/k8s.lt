@@ -5,6 +5,9 @@ featureImage: /images/service/dataops.webp
 postImage: /images/service/dataops.webp
 tags: DataOps
 categories: paslauga
+sitemap:
+   changefreq: weekly
+   priority: 0.9
 ---
 
 DataOps: Duomenų operacijų (DataOps) svarba ir taikymo sritis

@@ -5,6 +5,9 @@ featureImage: /images/service/finops.webp
 postImage: /images/service/finops.webp
 tags: FinOps
 categories: paslauga
+sitemap:
+   changefreq: weekly
+   priority: 0.9
 ---
 
 FinOps: Optimizuojant išlaidas ir valdant finansus debesų infrastruktūroje

@@ -37,6 +37,8 @@ params:
     phone: +370 612 30123
     email: deploy@k8s.lt
     openingHours: 9.00 - 17.30 darbo dienomis
+disableHugoGeneratorInject: true
+disableGeneratorVersion: false
 taxonomies:
   category: categories
   tag: tags
@@ -46,3 +48,7 @@ disableKinds:
 enableRobotsTXT: true
 minify:
   minifyOutput: true
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: 1
