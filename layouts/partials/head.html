@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="
+    <meta http-equiv=content-security-policy content="
       default-src 'self';
       img-src 'self' data: https:;
       script-src 'self' https://*.cloudflareinsights.com;
@@ -11,15 +11,15 @@
       object-src 'none';
       media-src 'self';
     ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ .Description }}">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://k8s.lt{{ .Permalink }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&amp;display=swap" crossorigin>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=description content="{{ .Description }}">
+    <meta name=robots content="index, follow">
     <title>{{ .Title }} - K8s.lt</title>
+    <link rel=canonical href="https://k8s.lt{{ .Permalink }}">
+    <link rel=preconnect href="https://fonts.googleapis.com" crossorigin>
+    <link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
+    <link rel=preload href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&amp;display=swap" as="style">
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
-    <link rel="icon" href="{{ "/images/favicon.ico" | absURL }}" type="image/x-icon">
+    <link rel=stylesheet href="{{ $style.Permalink }}">
+    <link rel=icon href="{{ "/images/favicon.ico" | absURL }}" type="image/x-icon">
 </head>
