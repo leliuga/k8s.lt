@@ -6,11 +6,7 @@
     @include desktop {
         background: $white;
     }
-    .navbar-brand {
-        img {
-            max-height: 64px;
-        }
-    }
+    .navbar-brand {}
     &.nav__color__change {
         background: $white;
         padding: 20px 0;
