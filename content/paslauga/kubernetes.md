@@ -1,19 +1,19 @@
 ---
 title: "Kubernetes"
-description: "Kubernetes: Aplikacijų valdymas ir skalavimas"
+description: "Kubernetes: Aplikacijų valdymas ir plėtimas"
 featureImage: /images/service/kubernetes.webp
 postImage: /images/service/kubernetes.webp
 tags: Kubernetes
 categories: paslauga
 ---
 
-Kubernetes (dažnai vadinamas "K8s") yra atviro kodo sistemos valdymo platforma, skirta skalauti ir valdyti debesų
+Kubernetes (dažnai vadinamas "K8s") yra atviro kodo sistemos valdymo platforma, skirta plėstis ir valdyti debesų
 aplikacijas. Tai leidžia organizacijoms efektyviai ir patikimai valdyti sudėtingas aplikacijas, kurios veikia ant
 daugybės tinkle susijusių serverių arba debesų tarnybų.
 
 Kubernetes taikymo sritis apima:
 
-1. Automatinis aplikacijų skalavimas: Kubernetes leidžia organizacijoms automatiškai skalauti aplikacijas pagal srauto
+1. Automatinis aplikacijų plėtimas: Kubernetes leidžia organizacijoms automatiškai plėsti aplikacijas pagal srauto
    ir resursų poreikius. Tai reiškia, kad aplikacijos gali būti dinamiškai prisitaikomos prie didesnio našumo
    reikalavimų, pvz., kai yra didesnis lankytojų srautas, ir sumažinamos, kai apkrova mažėja. Tai padeda užtikrinti
    optimalų resursų panaudojimą ir stabilų veikimą.
@@ -31,6 +31,6 @@ Kubernetes taikymo sritis apima:
    nuosekliai ir efektyviai.
 
 Kubernetes yra plačiai naudojama ir populiari technologija, ypač debesų ir mikroservisų architektūrose. Ji taikoma tiek
-mažose startuolėse, tiek stambiose korporacijose, kurios siekia lankstumo, skalavimo galimybių ir aukšto patikimumo savo
+mažose startuolėse, tiek stambiose korporacijose, kurios siekia lankstumo, plėtimo galimybių ir aukšto patikimumo savo
 aplikacijoms. Kubernetes leidžia organizacijoms efektyviai valdyti aplikacijas ir sumažinti administravimo laiką bei
 resursų sąnaudas.
