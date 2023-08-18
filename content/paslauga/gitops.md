@@ -1,8 +1,8 @@
 ---
 title: "GitOps"
 description: "GitOps: Infrastruktūros ir programinės įrangos valdymas naudojant Git"
-featureImage: images/service/gitops.png
-postImage: images/service/gitops.png
+featureImage: images/service/gitops.webp
+postImage: images/service/gitops.webp
 tags: GitOps
 categories: paslauga
 ---

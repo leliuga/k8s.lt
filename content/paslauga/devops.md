@@ -1,8 +1,8 @@
 ---
 title: "DevOps"
 description: "DevOps: Skleidžiant kultūrą ir praktikas, siekiant efektyvumo ir bendradarbiavimo"
-featureImage: images/service/devops.png
-postImage: images/service/devops.png
+featureImage: images/service/devops.webp
+postImage: images/service/devops.webp
 tags: DevOps
 categories: paslauga
 ---

@@ -3,7 +3,9 @@
     justify-content: center;
     display: grid;
     &__feature {
-      padding: 20px 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      display: grid;
       background: #f1f6f9;
       border-radius: 7px;
       @include desktop {
@@ -11,8 +13,7 @@
       }
       img {
         max-height: 300px;
-        border-radius: 20px;
-        opacity: .8;
+        opacity: 0.9;
         @include desktop {
           max-height: 250px;
         }
@@ -20,7 +21,7 @@
     }
     &__content {
       text-align: justify;
-      max-width: 680px;
+      max-width: 760px;
 
       @include desktop {
         margin: 0;
@@ -31,7 +32,7 @@
         margin-bottom: 60px;
         img {
           float: right;
-          mask: url("../images/hero/hero-mask-svg.png");
+          mask: url("../images/hero/hero-mask-svg.webp");
           -webkit-mask-repeat: no-repeat;
           -webkit-mask-size: contain;
           -webkit-mask-position: center center;

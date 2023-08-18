@@ -1,8 +1,8 @@
 ---
 title: "FinOps"
 description: "FinOps: Optimizuojant išlaidas ir valdant finansus debesų infrastruktūroje"
-featureImage: images/service/finops.png
-postImage: images/service/finops.png
+featureImage: images/service/finops.webp
+postImage: images/service/finops.webp
 tags: FinOps
 categories: paslauga
 ---

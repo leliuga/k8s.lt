@@ -6,5 +6,5 @@ content: >
 
   mes esame Jūsų technologinis partneris, specializuojantis atviro kodo technologijų srityje, ir padėsime Jums įgyvendinti internetinius projektus!
 buttonName: Pasikalbėkime
-buttonURL: pasikalbekime
-image: images/hero/me.jpeg
+buttonURL: /pasikalbekime
+image: images/hero/me.webp

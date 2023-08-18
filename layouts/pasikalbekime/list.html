@@ -2,7 +2,7 @@
 
 <header class="breadCrumb">
     <div class="svg-img">
-        <img src="{{ " images/hero/figure-svg.svg" | absURL }}" alt="bg">
+        <img src="{{ "/images/hero/figure-svg.svg" | absURL }}" alt="bg">
     </div>
     <div class="animate-shape">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
@@ -19,12 +19,12 @@
         </svg>
     </div>
     <div class="animate-pattern">
-        <img src="{{ " images/service/background-pattern.svg" | absURL }}" alt="background-shape">
+        <img src="{{ "/images/service/background-pattern.svg" | absURL }}" alt="background-shape">
     </div>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h3 class="breadCrumb__title">{{ .Title }}</h3>
+                <h1 class="breadCrumb__title">{{ .Title }}</h1>
             </div>
         </div>
     </div>
@@ -46,12 +46,13 @@
                             </svg>
                         </div>
                         <div class="icon">
-                            <img src="{{ " images/contact/phone.svg" | absURL }}" alt="phone" />
+                            <img src="{{ "/images/contact/phone.svg" | absURL }}" alt="phone" />
                         </div>
                     </div>
                     <h4>Telefonas ir el. paštas</h4>
-                    <p><a href="tel:{{ $address.phone }}">{{ $address.phone }}</a> | <a
-                            href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+                    <p>
+                        <a href="tel:{{ $address.phone }}">{{ $address.phone }}</a> |
+                        <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
                     </p>
 
                 </div>
@@ -68,7 +69,7 @@
                             </svg>
                         </div>
                         <div class="icon">
-                            <img src="{{ " images/contact/time.svg" | absURL }}" alt="time" />
+                            <img src="{{ "/images/contact/time.svg" | absURL }}" alt="time" />
                         </div>
                     </div>
                     <h4>Darbo valandos</h4>

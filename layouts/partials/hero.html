@@ -7,7 +7,7 @@
         </svg>
     </div>
     <div class="hero_footer-svg">
-        <img alt="" src="images/hero/figure-svg.svg"/>
+        <img alt="hero figure" src="/images/hero/figure-svg.svg"/>
     </div>
     <div class="container">
         <div class="row align-items-center">
@@ -16,16 +16,13 @@
                     <div class="hero_blob">
                         <svg viewBox="0 0 550 550">
                             <defs>
-                                <linearGradient gradientUnits="objectBoundingBox" id="a" x1=".069" x2=".753" y1=".116"
-                                                y2=".858">
+                                <linearGradient gradientUnits="objectBoundingBox" id="a" x1=".069" x2=".753" y1=".116" y2=".858">
                                     <stop offset="0" stop-color="#fff"/>
                                     <stop offset="1" stop-color="#fff" stop-opacity=".012"/>
                                 </linearGradient>
                             </defs>
                             <g data-name="blob-shape (3)">
-                                <path class="blob"
-                                      d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z"
-                                      fill="url(#a)"/>
+                                <path class="blob" d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" fill="url(#a)"/>
                             </g>
                         </svg>
                     </div>
@@ -40,14 +37,9 @@
             <div class="col-lg-6">
                 <div class="hero_figure">
                     <div class="figure-svg">
-                        <img alt="figure-svg" src="images/hero/figure-svg.svg"/>
+                        <img alt="figure svg" src="/images/hero/figure-svg.svg"/>
                     </div>
-                    <img alt="hero-image" src="{{ .image | absURL }}" style='
-                  -webkit-mask: url({{"images/hero/hero-mask-svg.png" | absURL }});
-                  -webkit-mask-repeat: no-repeat;
-                  -webkit-mask-size: contain;
-                  -webkit-mask-position: center center;
-                '/>
+                    <img alt="hero image" src="{{ .image | absURL }}" style='-webkit-mask: url({{"/images/hero/hero-mask-svg.webp" | absURL }});-webkit-mask-repeat: no-repeat;-webkit-mask-size: contain;-webkit-mask-position: center center;'/>
                 </div>
             </div>
         </div>
