@@ -1,8 +1,8 @@
 ---
 title: "Kubernetes"
 description: "Kubernetes: Aplikacijų valdymas ir skalavimas"
-featureImage: images/service/kubernetes.webp
-postImage: images/service/kubernetes.webp
+featureImage: /images/service/kubernetes.webp
+postImage: /images/service/kubernetes.webp
 tags: Kubernetes
 categories: paslauga
 ---

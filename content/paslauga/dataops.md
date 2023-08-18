@@ -1,8 +1,8 @@
 ---
 title: "DataOps"
 description: "DataOps: Duomenų operacijų (DataOps) svarba ir taikymo sritis"
-featureImage: images/service/dataops.webp
-postImage: images/service/dataops.webp
+featureImage: /images/service/dataops.webp
+postImage: /images/service/dataops.webp
 tags: DataOps
 categories: paslauga
 ---
