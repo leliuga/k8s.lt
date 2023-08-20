@@ -2,9 +2,9 @@
 enable: true
 topTitle: Labas, ... !
 content: >
-  # susipažinkime
+  # susipažinkime,
 
-  mes esame Jūsų technologinis partneris, specializuojantis atviro kodo technologijų srityje, ir padėsime Jums įgyvendinti internetinius projektus!
+  mes esame Jūsų technologinis partneris, besispecializuojantis atviro kodo technologijų srityje ir padėsime Jums įgyvendinti internetinius projektus!
 buttonName: Pasikalbėkime
 buttonURL: /pasikalbekime
 image: images/hero/me.webp

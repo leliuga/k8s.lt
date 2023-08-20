@@ -5,9 +5,12 @@ menu:
     - name: Paslaugos
       url: '/paslaugos'
       weight: 1
+    - name: SOC 2
+      url: '/paslauga/soc2'
+      weight: 2
     - name: Kubernetes
       url: '/paslauga/kubernetes'
-      weight: 2
+      weight: 3
   sitemap:
     - name: Pradžia
       url: '/'
@@ -15,21 +18,24 @@ menu:
     - name: Pasikalbėkime
       url: '/pasikalbekime'
       weight: 2
+    - name: SOC 2
+      url: '/soc2'
+      weight: 3
     - name: Kubernetes
       url: '/paslauga/kubernetes'
-      weight: 3
+      weight: 4
     - name: DataOps
       url: '/paslauga/dataops'
-      weight: 4
+      weight: 5
     - name: DevOps
       url: '/paslauga/devops'
-      weight: 5
+      weight: 6
     - name: FinOps
       url: '/paslauga/finops'
-      weight: 6
+      weight: 7
     - name: GitOps
       url: '/paslauga/gitops'
-      weight: 7
+      weight: 8
 params:
   logo: /images/logo.webp
   address:
