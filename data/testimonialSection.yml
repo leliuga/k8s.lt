@@ -1,19 +1,22 @@
 ---
 enable: true
-topTitle: Atsiliepimai
+topTitle: Dalinasi
 title: >
-  ## klientai kalba 
+  ## patirtimi 
 
 testimonial:
-  - name: Ryan Cook
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 20, 2020
-    star: 5
-  - name: Justin Trudo
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 16, 2020
-    star: 4
-  - name: Franky Filth
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Mar 08, 2020
-    star: 3
+  - name: Justinas Liubinskas
+    position: CTO
+    image: /images/testimonial/justinas.webp
+    profile: https://www.linkedin.com/in/justinas/
+    comment: Puikiai išmano „DevOps“ / platformos inžineriją ir turi puikių talentų ieškant sprendimų dinamiškoje aplinkoje.
+    company: ForgetBill
+    companyLink: https://forgetbill.com/
+  - name: Jonas Bučinskas
+    position: CEO
+    image: /images/testimonial/jonas.webp
+    profile: https://www.linkedin.com/in/bucinskas/
+    comment: Išskirtiniais inžinieriai ir programų kūrėjai su šiuolaikiniais techniniais įgūdžiais ir problemų sprendimo gebėjimais.
+    company: Fiestos
+    companyLink: https://fiestos.com
+

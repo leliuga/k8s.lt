@@ -34,7 +34,7 @@ params:
   logo: /images/logo.webp
   address:
     phone: +370 612 30123
-    email: deploy@k8s.lt
+    email: labas@k8s.lt
     openingHours: 9.00 - 17.30 darbo dienomis
 disableHugoGeneratorInject: true
 disableGeneratorVersion: false

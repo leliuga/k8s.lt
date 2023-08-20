@@ -16,31 +16,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="testimonial__slider">
-                    {{ $section := .testimonial }}
-                    {{ range $section }}
-                    <div class="testimonial__slider_item">
-                        {{ if .star }}
-                        <ul class="testimonial__slider_item-rating">
-                            {{ $rating := .star | int }}
-                            {{ $rating := sub $rating 1 }}
-                            {{ range $i, $sequence := (seq 5) }}
-                            {{ if le $i $rating }}
-                            <li><i class="fa fa-star"></i></li>
-                            {{ else }}
-                            <li><i class="fa fa-star inactive"></i></li>
-                            {{ end }}
-                            {{ end }}
-                        </ul>
-                        {{ end }}
-                        <p class="testimonial__slider_item-content"> {{ .comment | markdownify }} </p>
-                        <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
-                    </div>
-                    {{ end }}
+            {{ $section := .testimonial }}
+            {{ range $section }}
+            <div class="col-lg-6">
+                <div class="testimonial__slider_item">
+                    <p class="testimonial__slider_item-photo">
+                        <a href="{{ .profile }}" target="_blank">
+                            <img src="{{ .image }}" alt="{{ .name }}"/>
+                        </a>
+                    </p>
+                    <p class="testimonial__slider_item-content"> {{ .comment | markdownify }} </p>
+                    <p class="testimonial__slider_item-author"><span><a href="{{ .profile }}" target="_blank">{{ .name }}</a> {{ .position }} iš <a href="{{ .companyLink }}" target="_blank">{{ .company }}</a> </span></p>
                 </div>
             </div>
+            {{ end }}
         </div>
+
     </div>
 </section>
 {{ end }}
