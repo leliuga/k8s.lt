@@ -54,6 +54,6 @@ enableRobotsTXT: true
 minify:
   minifyOutput: true
 sitemap:
-  changeFreq: ""
+  changeFreq: "0.9"
   filename: sitemap.xml
   priority: 1
