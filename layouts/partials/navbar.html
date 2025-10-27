@@ -1,9 +1,10 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ .Site.BaseURL }}/">
+        <a class="navbar-brand" href="/">
             <img alt="logo" width="64" height="64" src="{{ .Site.Params.logo | absURL }}">
         </a>
-        <button class="navbar-toggler collapsed" aria-label="Menu toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+        <button class="navbar-toggler collapsed" aria-label="Menu toggler" data-target="#navbarCollapse"
+            data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon">&nbsp;</span>
             <span class="navbar-toggler-icon">&nbsp;</span>
             <span class="navbar-toggler-icon">&nbsp;</span>
@@ -15,12 +16,13 @@
                 {{ range $index, $element := $menu }}
                 <li class="nav-item">
                     <a class="nav-link text-dark text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}"
-                       href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+                        href="{{ .URL | absURL }}">{{ .Name }}</a>
                 </li>
                 {{ end }}
             </ul>
             <div class="navbar-nav">
-                <a href="{{ "/pasikalbekime" | absURL }}" class="btn btn-primary btn-zoom hire_button">Pasikalbėkime</a>
+                <a href="{{ "/pasikalbekime" | absURL }}"
+                    class="btn btn-primary btn-zoom hire_button">Pasikalbėkime</a>
             </div>
         </div>
     </div>

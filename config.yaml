@@ -34,7 +34,6 @@ menu:
     - name: Pasikalbėkime
       url: '/pasikalbekime'
       weight: 6
-    
 params:
   logo: /images/logo.webp
   address:
