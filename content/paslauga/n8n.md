@@ -29,7 +29,8 @@ Siūlome visapusišką paslaugų paketą, apimantį visus n8n diegimo ir naudoji
 Patikėkite mums techninę n8n platformos priežiūrą. Įdiegsime ir valdysime saugią, stabilią ir Jūsų poreikius atitinkančią n8n aplinką.
 *   **Diegimas debesyje arba Jūsų serveriuose (*on-premise*):** Sprendimą pritaikysime pagal Jūsų saugumo ir duomenų laikymo reikalavimus.
 *   **Aukštas pasiekiamumas ir mastelis:** Naudojame Docker ir Kubernetes technologijas, kad užtikrintume sistemos patikimumą ir galimybę augti kartu su Jūsų verslu.
-*   **Saugumo konfigūracija:** Įdiegsime HTTPS, SSO (vieno prisijungimo) integracijas ir pasirūpinsime saugiu jautrių duomenų (slaptažodžių, API raktų) valdymu.
+*   **Saugumo konfigūracija:** Įdiegsime HTTPS ir pasirūpinsime saugiu jautrių duomenų (slaptažodžių, API raktų) valdymu.
+*   **White-label sprendimas:** Galime paruošti n8n aplinką, kuri veiks su Jūsų pasirinktu domenu (pvz., automatizacija.jusuimone.lt), suteikiant profesionalų ir vientisą įvaizdį.
 
 #### 2. Automatizacijų (Workflows) kūrimas
 Išanalizuosime Jūsų verslo procesus ir sukursime automatizacijas, kurios taupys Jūsų laiką ir mažins klaidų tikimybę.
@@ -48,3 +49,13 @@ Jei standartinių n8n integracijų nepakanka, sukursime individualius modulius (
 *   **Patirtis:** Puikiai išmanome ne tik n8n, bet ir platesnę DevOps bei sistemų integravimo sritį.
 *   **Lankstumas:** Prisitaikome prie Jūsų poreikių – nuo vienkartinės konsultacijos iki nuolatinės priežiūros.
 *   **Skaidrumas:** Aiškiai apibrėžiame darbo etapus, tikslus ir rezultatus.
+
+### Kodėl verta rinktis mūsų hostingą, o ne oficialų n8n planą?
+
+Mūsų siūlomas sprendimas už fiksuotą ~~60 €/mėn.~~ **50 €/mėn.** kainą\* suteikia **neribotą užduočių vykdymų (workflow executions) skaičių**. Palyginimui, oficialus n8n „Pro“ planas, kainuojantis 60 €/mėn., leidžia įvykdyti tik 10 000 užduočių per mėnesį. Pasirinkę mus, gaunate ne tik patikimą techninę priežiūrą, bet ir galite auginti savo automatizacijų apimtis nesijaudindami dėl staiga išaugsiančių kaštų. Tai idealus sprendimas verslui, kuriam svarbus nuspėjamas biudžetas ir laisvė automatizuoti be apribojimų.   
+
+<div class="text-center pb-5">
+<a href="https://buy.stripe.com/eVq5kC3Mogzw0VT3c22cg07" target="_blank" class="btn btn-primary btn-zoom">Užsakyti</a>
+</div>
+
+\* - Į kainą įskaičiuota: 2 vCPU branduoliai, 4 GB RAM, 20 TB duomenų srautas. 
