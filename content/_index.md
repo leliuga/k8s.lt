@@ -1,5 +1,5 @@
 ---
-title: IT infrastruktūros bei automatizacijos sprendimų partneris
+title: IT infrastruktūros bei automatizacijos paslaugos
 description: Kubernetes, DevOps, SOC 2 arba n8n paslaugos
 sitemap:
   changefreq: daily
