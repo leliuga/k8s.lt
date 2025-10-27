@@ -3,7 +3,7 @@
     justify-content: center;
     display: grid;
     &__feature {
-      margin-bottom: 30px;
+      margin-bottom: 120px;
       justify-content: center;
       display: grid;
       background: #f1f6f9;
@@ -21,7 +21,6 @@
     }
     &__content {
       text-align: justify;
-      max-width: 760px;
 
       @include desktop {
         margin: 0;
