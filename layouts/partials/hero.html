@@ -31,6 +31,7 @@
                         {{ .content | markdownify }}
                     </div>
                     <a class="btn btn-lg btn-primary btn-zoom" href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a>
+                    <div class="mt-5">{{ .postContent | markdownify }}</div>
                 </div>
             </div>
             <div class="col-lg-6">
