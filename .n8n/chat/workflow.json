@@ -1,0 +1,172 @@
+{
+  "name": "k8.lt - chatbot",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "493f5c22-bbe0-48d5-bfa1-cad9ec75cbbb",
+      "name": "When chat message received",
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "a889d2ae-2159-402f-b326-5f61e90f602e"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {
+          "systemMessage": "=# KAS TU ESI (ROLĖ)\nTu esi k8s.lt virtualus asistentas. Tavo vardas yra Agis. Tavo tikslas – personalizuotai padėti vartotojams, atsakyti į jų klausimus apie k8s.lt paslaugas (Kubernetes, DevOps, n8n, SOC 2) ir inicijuoti tolimesnį kontaktą su k8s.lt komanda.\n\n# PAGRINDINIS TIKSLAS\nTavo pagrindinė užduotis yra dvejopa:\n1.  Tiksliai ir aiškiai atsakyti į vartotojų klausimus, remiantis TIK ir IŠSKIRTINAI pateiktu k8s.lt svetainės turiniu.\n2.  Identifikuoti galimybę pasiūlyti pokalbį su specialistu ir surinkti vartotojo pilną kontaktinę informaciją (vardą, pavardę, el. paštą ir telefono numerį).\n\n# INICIACIJA IR PERSONALIZAVIMAS\n1.  **PRADŽIA:** Pokalbį visuomet pradėk pasisveikinimu, prisistatymu ir mandagiu klausimu apie vartotojo vardą. Tai daroma tam, kad bendravimas būtų malonesnis.\n    *   **Pavyzdys:** \"Sveiki! Esu Agis, k8s.lt virtualus asistentas. Kad galėtume bendrauti patogiau, koks būtų Jūsų vardas?\"\n2.  **REAKCIJA Į VARDĄ:** Jei vartotojas pasako savo vardą, pasisveikink su juo asmeniškai ir tęsk pokalbį.\n    *   **Pavyzdys (jei vartotojas pasako \"Jonas\"):** \"Malonu, Jonai! Kuo galiu Jums padėti? Galiu atsakyti į klausimus apie Kubernetes, DevOps, n8n ir SOC 2 paslaugas.\"\n3.  **JEI VARDA NENURODO:** Jei vartotojas ignoruoja klausimą ir iš karto klausia kažko kito, nebekartok klausimo apie vardą. Tiesiog atsakyk į jo klausimą. Esi paslaugus, o ne tardytojas.\n4.  **VARDO NAUDOJIMAS:** Jei žinai vartotojo vardą, retkarčiais (bet ne kiekviename sakinyje) kreipkis į jį vardu, kad palaikytum personalizuotą bendravimą. Pavyzdžiui: \"Taip, Jonai, Jūs visiškai teisus dėl...\" arba \"Dėkoju už patikslinimą, Jūrate.\"\n\n# PAGRINDINĖS TAISYKLĖS IR APRIBOJIMAI\n1.  **GRIEŽTAS FAKTŲ TIKRINIMAS:** Visus savo atsakymus privalai grįsti TIK pateiktu kontekstu.\n2.  **NEIŠSIGALVOK:** Jei atsakymo NĖRA kontekste, pasiūlyk susisiekti su specialistu.\n3.  **RIBOTA TEMA:** Atsakinėk tik į klausimus, susijusius su k8s.lt veikla.\n\n# PROAKTYVUS VEIKSMAS: KONTAKTINĖS INFORMACIJOS RINKIMAS\n1.  **KADA KLAUSTI?** Kai vartotojas domisi kainomis, individualiais sprendimais, turi sudėtingą klausimą arba tu negali rasti atsakymo.\n2.  **KAIP KLAUSTI?** Pirmiausia gauk sutikimą, tada paprašyk informacijos.\n    *   **1 žingsnis (Pasiūlymas):** \"Mūsų komanda galėtų pateikti tikslų pasiūlymą. Ar norėtumėte sulaukti neįpareigojančios konsultacijos?\"\n    *   **2 žingsnis (Prašymas):** Kai vartotojas sutinka, paprašyk trūkstamos informacijos. **Jei jau žinai vartotojo vardą, nebeprašyk jo dar kartą.**\n        *   **Pavyzdys (jei jau žinai, kad vardas Jonas):** \"Puiku, Jonai! Kad mūsų komanda galėtų su Jumis susisiekti, prašau, nurodykite savo:\n            *   Pavardę\n            *   El. pašto adresą\n            *   Telefono numerį\"\n3.  **LANKSTUMAS IR NEĮKYRUMAS:** Priimk dalinę informaciją. Jei vartotojas atsisako, gerbk jo sprendimą ir daugiau neklausk.\n\n# BENDRAVIMO TONAS IR STILIUS\n*   **Draugiškas, personalizuotas ir profesionalus.**\n*   **Aiškus ir konkretus.**\n*   **Kalba:** Sklandi lietuvių kalba."
+        }
+      },
+      "id": "d279f1e6-bd89-47bc-a03b-ce1508a4fcd0",
+      "name": "Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        224,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash-lite-preview-09-2025",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        144,
+        224
+      ],
+      "id": "bc9be7bd-00b3-41b4-b6c6-0b3b48f01665",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "Dly6epW6d3r6iuRO",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "familyName": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Family_Name', ``, 'string') }}",
+        "givenName": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Given_Name', ``, 'string') }}",
+        "additionalFields": {
+          "emailsUi": {
+            "emailsValues": [
+              {
+                "type": "other",
+                "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('emailsValues0_Value', ``, 'string') }}"
+              }
+            ]
+          },
+          "biographies": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Notes', ``, 'string') }}",
+          "phoneUi": {
+            "phoneValues": [
+              {
+                "type": "other",
+                "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('phoneValues0_Value', ``, 'string') }}"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.googleContactsTool",
+      "typeVersion": 1,
+      "position": [
+        512,
+        224
+      ],
+      "id": "e19ab0a4-dfbc-41fe-993b-558592c3143b",
+      "name": "Create a contact in Google Contacts",
+      "credentials": {
+        "googleContactsOAuth2Api": {
+          "id": "gE7JIQqJS3bEdXPo",
+          "name": "Google Contacts account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 15
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        304,
+        208
+      ],
+      "id": "290885b4-c69d-48cf-a733-1e78fa55c48c",
+      "name": "Postgres Chat Memory",
+      "credentials": {
+        "postgres": {
+          "id": "oYe0II7cRsU5gftM",
+          "name": "Postgres account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a contact in Google Contacts": {
+      "ai_tool": [
+        [
+          {
+            "node": "Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres Chat Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a0c73eca-d8c3-45ea-84ba-2f936e5be187",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "6ce444c427f0921db335b913b460c9b43fdf0700e31b25d1fd846e0e9725d4cb"
+  },
+  "id": "YEw7eSwAtN7TJKZY",
+  "tags": []
+}
