@@ -4,35 +4,35 @@ pagination:
 menu:
   main:
     - name: Kubernetes
-      url: '/paslauga/kubernetes'
+      url: '/paslauga/kubernetes/'
       weight: 1
     - name: n8n
-      url: '/paslauga/n8n'
+      url: '/paslauga/n8n/'
       weight: 2
     - name: DevOps
-      url: '/paslauga/devops'
+      url: '/paslauga/devops/'
       weight: 3
     - name: SOC 2
-      url: '/paslauga/soc2'
+      url: '/paslauga/soc2/'
       weight: 4
   sitemap:
     - name: Pradžia
       url: '/'
       weight: 1
     - name: Kubernetes
-      url: '/paslauga/kubernetes'
+      url: '/paslauga/kubernetes/'
       weight: 2
     - name: DevOps
-      url: '/paslauga/devops'
+      url: '/paslauga/devops/'
       weight: 3
     - name: n8n
-      url: '/paslauga/n8n'
+      url: '/paslauga/n8n/'
       weight: 4
     - name: SOC 2
-      url: '/paslauga/soc2'
+      url: '/paslauga/soc2/'
       weight: 5
     - name: Pasikalbėkime
-      url: '/pasikalbekime'
+      url: '/pasikalbekime/'
       weight: 6
 params:
   logo: /images/logo.webp
