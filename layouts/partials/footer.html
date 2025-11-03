@@ -11,3 +11,11 @@
 </section>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}" defer></script>
+{{ $script := resources.Get "js/chat-widget.js" | minify }}
+<script src="{{ $script.Permalink }}" defer></script>
+
+<chat-widget
+  data-webhook-url="https://webhook.k8s.lt/w/4dea41f0-e7ac-4e44-ab7c-0a02a4be0b5c/chat"
+  data-title="K8s.lt"
+  data-button-text="Gyvai"
+></chat-widget>
