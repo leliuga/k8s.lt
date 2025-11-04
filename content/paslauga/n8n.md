@@ -52,7 +52,11 @@ Jei standartinių n8n integracijų nepakanka, sukursime individualius modulius (
 
 ### Kodėl verta rinktis mūsų hostingą, o ne oficialų n8n planą?
 
-Mūsų siūlomas sprendimas už fiksuotą ~~60 €/mėn.~~ **50 €/mėn.** kainą\* suteikia **neribotą užduočių vykdymų (workflow executions) skaičių**. Palyginimui, oficialus n8n „Pro“ planas, kainuojantis 60 €/mėn., leidžia įvykdyti tik 10 000 užduočių per mėnesį. Pasirinkę mus, gaunate ne tik patikimą techninę priežiūrą, bet ir galite auginti savo automatizacijų apimtis nesijaudindami dėl staiga išaugsiančių kaštų. Tai idealus sprendimas verslui, kuriam svarbus nuspėjamas biudžetas ir laisvė automatizuoti be apribojimų.   
+Mūsų siūlomas sprendimas už fiksuotą ~~60 €/mėn.~~ **50 €/mėn.** kainą\* suteikia **neribotą užduočių vykdymų (workflow executions) skaičių**.
+
+**Sutaupykite dar daugiau: rinkitės metinį planą už ~~600 €~~ 500 € ir gaukite 2 mėnesius nemokamai!**
+
+Palyginimui, oficialus n8n „Pro“ planas, kainuojantis 60 €/mėn., leidžia įvykdyti tik 10 000 užduočių per mėnesį. Pasirinkę mus, gaunate ne tik patikimą techninę priežiūrą, bet ir galite auginti savo automatizacijų apimtis nesijaudindami dėl staiga išaugsiančių kaštų. Tai idealus sprendimas verslui, kuriam svarbus nuspėjamas biudžetas ir laisvė automatizuoti be apribojimų.   
 
 <div class="text-center pb-5">
 <a href="https://buy.stripe.com/eVq5kC3Mogzw0VT3c22cg07" target="_blank" class="btn btn-primary btn-zoom">Užsakyti</a>

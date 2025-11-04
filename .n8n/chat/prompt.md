@@ -111,15 +111,15 @@ priežiūra bei veiklos procesų optimizavimas.
 
 Mūsų tikslas – užtikrinti sklandų ir skaidrų bendradarbiavimą kiekviename etape. Procesas nuo pirminės jūsų užklausos iki galutinio sprendimo pridavimo yra suskirstytas į aiškius žingsnius. **Siekiant maksimalaus skaidrumo, visa projekto eiga ir atskiri žingsniai yra valdomi naudojant užduočių valdymo sistemą**, prie kurios prieigą turėsite ir jūs.
 
-1.  **Pirminė Konsultacija ir Poreikių Analizė:** Viskas prasideda nuo jūsų poreikių išsiaiškinimo. Susisiekiame su jumis, kad aptartume jūsų verslo tikslus, esamą situaciją ir techninius iššūkius. Šio etapo tikslas – tiksliai suprasti, kokį rezultatą norite pasiekti.
-2.  **Pasiūlymo Rengimas:** Remdamiesi surinkta informacija, parengiame individualų komercinį pasiūlymą. Jame aiškiai apibrėžiame darbų apimtį, preliminarius terminus, kainą ir laukiamus rezultatus.
-3.  **Sutarties Sudarymas:** Suderinus pasiūlymo detales, pasirašome paslaugų teikimo sutartį, kurioje įtvirtinami visi susitarimai, šalių įsipareigojimai ir konfidencialumo sąlygos.
-4.  **Projekto Vykdymas:** Pradedame techninį darbą. Priklausomai nuo paslaugos, tai gali būti Kubernetes klasterio diegimas, CI/CD procesų kūrimas, automatizacijų (workflows) kūrimas ar prieigos kontrolės sistemos diegimas. Reguliariai bendraujame su jumis, informuojame apie progresą ir deriname sprendimus.
-5.  **Testavimas ir Patvirtinimas:** Įgyvendinę sprendimą, atliekame išsamius testus, kad įsitikintume, jog viskas veikia patikimai ir atitinka sutartus reikalavimus. Jūs taip pat gaunate prieigą sprendimui išbandyti ir pateikti savo pastabas.
-6.  **Sprendimo Pridavimas ir Apmokymai:** Po sėkmingo testavimo oficialiai priduodame darbus. Suteikiame visą reikalingą dokumentaciją ir, esant poreikiui, apmokome jūsų komandą, kaip naudotis naujai įdiegtais įrankiais ar procesais.
-7.  **Palaikymas ir Priežiūra (Pasirinktinai):** Užbaigus projektą, galime pasiūlyti nuolatinės priežiūros ir palaikymo paslaugas, kad užtikrintume ilgalaikį ir stabilų jūsų sistemos veikimą.
+1.  **Pirminė konsultacija ir poreikių analizė:** Viskas prasideda nuo jūsų poreikių išsiaiškinimo. Susisiekiame su jumis, kad aptartume jūsų verslo tikslus, esamą situaciją ir techninius iššūkius. Šio etapo tikslas – tiksliai suprasti, kokį rezultatą norite pasiekti.
+2.  **Pasiūlymo rengimas:** Remdamiesi surinkta informacija, parengiame individualų komercinį pasiūlymą. Jame aiškiai apibrėžiame darbų apimtį, preliminarius terminus, kainą ir laukiamus rezultatus.
+3.  **Sutarties sudarymas:** Suderinus pasiūlymo detales, pasirašome paslaugų teikimo sutartį, kurioje įtvirtinami visi susitarimai, šalių įsipareigojimai ir konfidencialumo sąlygos.
+4.  **Projekto vykdymas:** Pradedame techninį darbą. Priklausomai nuo paslaugos, tai gali būti Kubernetes klasterio diegimas, CI/CD procesų kūrimas, automatizacijų (workflows) kūrimas ar prieigos kontrolės sistemos diegimas. Reguliariai bendraujame su jumis, informuojame apie progresą ir deriname sprendimus.
+5.  **Testavimas ir patvirtinimas:** Įgyvendinę sprendimą, atliekame išsamius testus, kad įsitikintume, jog viskas veikia patikimai ir atitinka sutartus reikalavimus. Jūs taip pat gaunate prieigą sprendimui išbandyti ir pateikti savo pastabas.
+6.  **Sprendimo pridavimas ir apmokymai:** Po sėkmingo testavimo oficialiai priduodame darbus. Suteikiame visą reikalingą dokumentaciją ir, esant poreikiui, apmokome jūsų komandą, kaip naudotis naujai įdiegtais įrankiais ar procesais.
+7.  **Palaikymas ir priežiūra (pasirinktinai):** Užbaigus projektą, galime pasiūlyti nuolatinės priežiūros ir palaikymo paslaugas, kad užtikrintume ilgalaikį ir stabilų jūsų sistemos veikimą.
 
-# **Kainodara**
+# Kainodara
 
 Mūsų kainodaros modelis yra lankstus ir sukurtas atsižvelgiant į jūsų individualius poreikius. Suprantame, kad jūsų tikslai yra unikalūs, todėl siūlome kelis skaidrius atsiskaitymo būdus, kad galėtumėte pasirinkti patogiausią. **Visos nurodytos kainos yra galutinės, PVM joms netaikomas, nes nesame PVM mokėtojai.**
 
@@ -145,6 +145,52 @@ Mūsų kainodaros modelis yra lankstus ir sukurtas atsižvelgiant į jūsų indi
 *   **Privalumai:** Suteikia maksimalų lankstumą keisti darbų apimtį ir užtikrina, kad mokate tik už realiai atliktą darbą.
 
 Norėdami sužinoti tikslią kainą, pritaikytą būtent jūsų projektui, susisiekite su mumis. Mūsų komanda mielai atsakys į jūsų klausimus ir padės rasti geriausią sprendimą.
+
+# Specialūs pasiūlymai
+
+Siekdami palengvinti pirmąjį žingsnį link efektyvesnės IT infrastruktūros bei automatizacijos, siūlome specialius pasiūlymus, skirtus susipažinti su mūsų paslaugomis ir pritaikyti inovatyvius sprendimus jūsų verslui.
+
+### 1. Nemokama pirminė konsultacija ir būklės įvertinimas
+
+Dvejojate, nuo ko pradėti, arba norite gauti profesionalų įvertinimą apie savo esamą infrastruktūrą? Pasinaudokite galimybe gauti visiškai nemokamą konsultaciją. Šiam įvertinimui skiriame **iki 1 valandos laiko**.
+
+*   **Kas įskaičiuota?**
+    *   **Iki 15 minučių trukmės nuotolinis pokalbis**, skirtas jūsų poreikiams ir iššūkiams aptarti.
+    *   **Jūsų situacijos analizė** po pokalbio ir pirminių sprendimo gairių paruošimas.
+    *   **Profesionalių rekomendacijų pateikimas** el. paštu be jokių tolesnių įsipareigojimų.
+*   **Kam skirta?** Visiems, norintiems susipažinti su mūsų kompetencijomis ir gauti pirminę įžvalgą IT infrastruktūros bei automatizacijos srityje.
+*   **Kaip pasinaudoti?** Tiesiog užsiregistruokite susitikimui per mūsų [susitikimų kalendorių](https://calendly.com/leliuga/15-minutes).
+
+### 2. Nuolaidos ilgesnės apimties projektams
+
+Planuojate didesnį projektą ir ieškote partnerio? Vertiname ilgalaikį bendradarbiavimą ir siūlome lanksčią nuolaidų sistemą klientams, kurie renkasi kompleksinius sprendimus – projektą kartu su mūsų teikiamomis tęstinėmis paslaugomis.
+
+| Iš anksto sutarta projekto trukmė | Taikoma nuolaida galutinei kainai |
+| :--- | :--- |
+| **3 savaitės** (15 d. d.) | **5 %** |
+| **1 mėnuo** (20 d. d. ir daugiau) | **10 %** |
+
+**Sąlygos:** Šis pasiūlymas galioja klientams, kurie kartu su projektu pasirenka ir mūsų teikiamas platformų **nuomos arba priežiūros paslaugas** su ne trumpesniu nei 1 metų įsipareigojimu. Nuolaida taikoma fiksuotos kainos projektams, kurių apimtis ir trukmė yra aiškiai apibrėžiama sutartyje. Pasiūlymas nėra sumuojamas su kitomis akcijomis.
+
+### 3. Lapkričio mėnesio specializacija: pasiruoškite šventėms su automatizacija!
+
+Lapkritis – puikus metas pasiruošti artėjančiam šventiniam maratonui. Šv. Kūčių, Kalėdų ir Naujųjų metų laikotarpis verslui atneša ne tik didesnes pajamas, bet ir išaugusį klientų srautą bei užklausų skaičių. Automatizuokite procesus dabar, kad vėliau galėtumėte dirbti ramiau ir efektyviau.
+
+*   **Pokalbių robotų (Chatbot) kūrimas**
+    Leiskite technologijoms dirbti už jus! Pokalbių robotai padeda akimirksniu tvarkytis su pasikartojančiomis užduotimis, atsakinėti į **dažnai užduodamus klausimus (DUK)**, teikti **informaciją apie prekes, paslaugas,** pristatymo terminus ar darbo laiką – visa tai 24/7, be išeiginių. Atlaisvinkite savo komandą sudėtingesniems darbams ir užtikrinkite, kad nė vienas klientas neliks be dėmesio.
+
+    **Specialaus pasiūlymo detalės:**
+    *   **Speciali lapkričio kaina:** **600 €** (įprasta kaina – nuo 1000 €).
+    *   **Kas įskaičiuota:**
+        *   **Projekto trukmė:** 2–3 darbo dienos.
+        *   **Apimtis:** Sukuriamas vienas pagrindinis darbo procesas (*workflow*) integruojant iki 10 skirtingų įrankių ar veiksmų.
+        *   **Platformos:** Integracija su jūsų pasirinkta platforma: interneto svetaine (įskaitant el. parduotuves), „Messenger“, „WhatsApp“, „Slack“ ar „Telegram“.
+
+    **Papildomos sąlygos ir išlaidos:**
+    *   **Platformos nuoma:** Sprendimui reikalinga n8n automatizacijos platforma. Mes suteikiame paruoštą ir prižiūrimą n8n su **1 metų įsipareigojimu**. Atsiskaityti galima kas mėnesį arba sumokant iš anksto už visus metus. Šios paslaugos kaina į pasiūlymą nėra įskaičiuota.
+    *   **DI kaštai:** Į pasiūlymo kainą taip pat neįeina dirbtinio intelekto (DI) modelių naudojimo mokesčiai (tokenai).
+
+**Kaip pasinaudoti?** Susisiekite su mumis iki lapkričio 30 d. ir pokalbio metu paminėkite, kad domitės lapkričio mėnesio pasiūlymu.
 
 # PASLAUGOS
 
@@ -345,6 +391,9 @@ Jei standartinių n8n integracijų nepakanka, sukursime individualius modulius
 
 Mūsų siūlomas sprendimas už fiksuotą ~~60 €/mėn.~~ **50 €/mėn.** kainą\*
 suteikia **neribotą užduočių vykdymų (workflow executions) skaičių**.
+
+**Sutaupykite dar daugiau: rinkitės metinį planą už ~~600 €~~ 500 € ir gaukite 2 mėnesius nemokamai!**
+
 Palyginimui, oficialus n8n „Pro“ planas, kainuojantis 60 €/mėn., leidžia
 įvykdyti tik 10 000 užduočių per mėnesį. Pasirinkę mus, gaunate ne tik patikimą
 techninę priežiūrą, bet ir galite auginti savo automatizacijų apimtis
