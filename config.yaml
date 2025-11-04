@@ -34,6 +34,9 @@ menu:
     - name: Pasikalbėkime
       url: '/pasikalbekime/'
       weight: 6
+    - name: Privatumo politika
+      url: '/teisinis/privatumo-politika/'
+      weight: 7
 params:
   logo: /images/logo.webp
   address:
